@@ -1,0 +1,10 @@
+{
+  "configurations": [{
+    "name": "Linux",
+    "includePath": ["${workspaceFolder}/**", "/opt/rocm/include"],
+    "defines": ["__HIP_PLATFORM_AMD__"],
+    "compilerPath": "/opt/rocm/llvm/bin/clang++",
+    "cppStandard": "c++17"
+  }],
+  "version": 4
+}
